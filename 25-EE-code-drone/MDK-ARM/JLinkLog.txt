@@ -1,0 +1,99 @@
+T1EA8 000:134.029   SEGGER J-Link V7.22b Log File
+T1EA8 000:134.181   DLL Compiled: Jun 17 2021 17:22:49
+T1EA8 000:134.186   Logging started @ 2024-04-01 13:20
+T1EA8 000:134.190 - 134.192ms
+T1EA8 000:134.199 JLINK_SetWarnOutHandler(...)
+T1EA8 000:134.205 - 0.008ms
+T1EA8 000:134.211 JLINK_OpenEx(...)
+T1EA8 000:135.914   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1EA8 000:136.294   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1EA8 000:136.422   Decompressing FW timestamp took 106 us
+T1EA8 000:144.980   Hardware: V9.40
+T1EA8 000:145.000   S/N: 69401723
+T1EA8 000:145.006   OEM: SEGGER
+T1EA8 000:145.011   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T1EA8 000:146.165   TELNET listener socket opened on port 19021
+T1EA8 000:146.251   WEBSRV Starting webserver
+T1EA8 000:146.382   WEBSRV Webserver running on local port 19080
+T1EA8 000:146.389 - 12.181ms returns "O.K."
+T1EA8 000:146.405 JLINK_GetEmuCaps()
+T1EA8 000:146.410 - 0.007ms returns 0xB9FF7BBF
+T1EA8 000:146.419 JLINK_TIF_GetAvailable(...)
+T1EA8 000:146.638 - 0.227ms
+T1EA8 000:146.657 JLINK_SetErrorOutHandler(...)
+T1EA8 000:146.662 - 0.007ms
+T1EA8 000:146.681 JLINK_ExecCommand("ProjectFile = "C:\Users\SUPERBOY\Desktop\20240331\RM24-special-Omni\MDK-ARM\JLinkSettings.ini"", ...). 
+T1EA8 000:154.420 - 7.752ms returns 0x00
+T1EA8 000:154.450 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T1EA8 000:154.863   Device "STM32F407IG" selected.
+T1EA8 000:155.161 - 0.709ms returns 0x00
+T1EA8 000:155.177 JLINK_GetHardwareVersion()
+T1EA8 000:155.182 - 0.007ms returns 94000
+T1EA8 000:155.188 JLINK_GetDLLVersion()
+T1EA8 000:155.193 - 0.006ms returns 72202
+T1EA8 000:155.198 JLINK_GetOEMString(...)
+T1EA8 000:155.204 JLINK_GetFirmwareString(...)
+T1EA8 000:155.210 - 0.008ms
+T1EA8 000:155.216 JLINK_GetDLLVersion()
+T1EA8 000:155.220 - 0.005ms returns 72202
+T1EA8 000:155.225 JLINK_GetCompileDateTime()
+T1EA8 000:155.230 - 0.006ms
+T1EA8 000:155.237 JLINK_GetFirmwareString(...)
+T1EA8 000:155.243 - 0.007ms
+T1EA8 000:155.249 JLINK_GetHardwareVersion()
+T1EA8 000:155.253 - 0.007ms returns 94000
+T1EA8 000:155.260 JLINK_GetSN()
+T1EA8 000:155.265 - 0.007ms returns 69401723
+T1EA8 000:155.271 JLINK_GetOEMString(...)
+T1EA8 000:155.279 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T1EA8 000:156.182 - 0.912ms returns 0x00
+T1EA8 000:156.198 JLINK_HasError()
+T1EA8 000:156.210 JLINK_SetSpeed(5000)
+T1EA8 000:156.378 - 0.175ms
+T1EA8 000:156.622 JLINK_HasError()
+T1EA8 000:156.630 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T1EA8 000:156.634 - 0.005ms returns JLINKARM_RESET_TYPE_NORMAL
+T1EA8 000:156.638 JLINK_Reset()
+T1EA8 000:156.870   InitTarget() start
+T1EA8 000:156.885    J-Link Script File: Executing InitTarget()
+T1EA8 000:242.644   Can not attach to CPU. Trying connect under reset.
+T1EA8 000:378.998   Connecting to CPU via connect under reset failed.
+T1EA8 000:429.949   InitTarget() end
+T1EA8 000:491.722   InitTarget() start
+T1EA8 000:491.741    J-Link Script File: Executing InitTarget()
+T1EA8 000:577.570   Can not attach to CPU. Trying connect under reset.
+T1EA8 000:713.199   Connecting to CPU via connect under reset failed.
+T1EA8 000:763.696   InitTarget() end
+T1EA8 000:763.715 - 607.079ms
+T1EA8 000:763.728 JLINK_GetId()
+T1EA8 000:763.919   InitTarget() start
+T1EA8 000:763.932    J-Link Script File: Executing InitTarget()
+T1EA8 000:849.126   Can not attach to CPU. Trying connect under reset.
+T1EA8 000:985.026   Connecting to CPU via connect under reset failed.
+T1EA8 001:035.768   InitTarget() end
+T1EA8 001:096.856   InitTarget() start
+T1EA8 001:096.873    J-Link Script File: Executing InitTarget()
+T1EA8 001:182.560   Can not attach to CPU. Trying connect under reset.
+T1EA8 001:318.176   Connecting to CPU via connect under reset failed.
+T1EA8 001:369.762   InitTarget() end
+T1EA8 001:369.781 - 606.055ms returns 0x00000000
+T1EA8 001:369.797 JLINK_GetId()
+T1EA8 001:370.066   InitTarget() start
+T1EA8 001:370.077    J-Link Script File: Executing InitTarget()
+T1EA8 001:455.703   Can not attach to CPU. Trying connect under reset.
+T1EA8 001:591.512   Connecting to CPU via connect under reset failed.
+T1EA8 001:641.738   InitTarget() end
+T1EA8 001:703.717   InitTarget() start
+T1EA8 001:703.736    J-Link Script File: Executing InitTarget()
+T1EA8 001:789.212   Can not attach to CPU. Trying connect under reset.
+T1EA8 001:924.797   Connecting to CPU via connect under reset failed.
+T1EA8 001:975.867   InitTarget() end
+T1EA8 001:975.886 - 606.091ms returns 0x00000000
+T1EA8 001:978.485 JLINK_GetFirmwareString(...)
+T1EA8 001:978.498 - 0.015ms
+T3DE8 074:823.842   
+  ***** Error: Connection to emulator lost!
+T1EA8 157:121.851 JLINK_Close()
+T1EA8 157:126.169 - 4.337ms
+T1EA8 157:126.191   
+T1EA8 157:126.196   Closed
